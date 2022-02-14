@@ -30,6 +30,8 @@ func compositeLiteralFunc(isAlive bool, deathYear int8) (person *Person) {
 		DeathYear: deathYear,
 	}
 	fmt.Printf("value: %v pointer address: %v", person, &person)
+
+	//new(Person) ifadesi &Person{} a eşdeğerdir.
 	return
 }
 
